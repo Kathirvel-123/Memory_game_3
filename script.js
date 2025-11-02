@@ -61,7 +61,7 @@ function disableCards() {
   resetBoard();
 
   if (matchedPairs === cardIcons.length) {
-    setTimeout(() => alert("🎉 You found all pairs!"), 300);
+    setTimeout(() => alert("Congratulations, You found all pairs!"), 300);
   }
 }
 
